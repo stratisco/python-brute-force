@@ -23,3 +23,5 @@ this program also allows for the use of words in your charList.
 
 i have set a maximum length for the strings to 100 characters/numbers.
 if you wish to change the maximum length simply change the _maxLength_ variable
+
+and if you want to change the starting length of the string change the _startingLength_ varuable
