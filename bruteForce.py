@@ -1,7 +1,7 @@
-def action(line): #put whatever you want to do with brute force in here
+def action(line): # put whatever you want to do with brute force in here
     print(line)
 
-charList = [chr(i) for i in range(32, 127)]
+charList = [chr(i) for i in range(32, 127)] # this line auto genorates all keyboard printable characters
 
 maxLength = 3
 base = len(charList)
