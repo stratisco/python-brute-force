@@ -1,10 +1,13 @@
-def action(line): # put whatever you want to do with brute force in here
+def action(line:str) -> None: # put whatever you want to do with brute force in here
     print(line)
 
 charList = [chr(i) for i in range(32, 127)] # this line auto genorates all keyboard printable characters
 maxLength = 100 # this vaariable controls max length
 startingLength = 0 # change this to change starting length
 
+# edit details above
+
+########################################################################################################################################################
 base = len(charList)
 input(f"Summary of program:\rList of characters: '{''.join(charList)}'\nTotal characters: {base}\nMaximum length: {maxLength}\n\nPress enter to begin ")
 print(f"\n{'='*30}\n")
