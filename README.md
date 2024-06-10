@@ -13,15 +13,15 @@ def action(line):
 and if you want to check for something do this
 ```
 def action(line):
-  if line == 'password':
+  if line == 'string':
     print(line)
 ```
     
-to change the list of characters of this program simply change the variable called charList to something like this _['a', 'b', '2', '1']_ 
+to change the list of characters of this program simply change the variable called charList to something like this `['a', 'b', '2', '1']`
 ensure all items in the list are strings.
 this program also allows for the use of words in your charList.
 
 i have set a maximum length for the strings to 100 characters/numbers.
-if you wish to change the maximum length simply change the _maxLength_ variable
+if you wish to change the maximum length simply change the `maxLength` variable
 
-and if you want to change the starting length of the string change the _startingLength_ varuable
+and if you want to change the starting length of the string change the `startingLength` varuable
