@@ -5,8 +5,7 @@ charList = [chr(i) for i in range(32, 127)] # this line auto genorates all keybo
 maxLength = 100 # this vaariable controls max length
 startingLength = 0 # change this to change starting length
 
-# edit details above
-
+# everything you need to change is above this line
 ########################################################################################################################################################
 base = len(charList)
 input(f"Summary of program:\rList of characters: '{''.join(charList)}'\nTotal characters: {base}\nMaximum length: {maxLength}\n\nPress enter to begin ")
